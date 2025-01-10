@@ -25,7 +25,7 @@ public class StudentController {
 	@RequestMapping("/")
 	public String loadForm(Model model) {
 		loadFormData(model);
-		
+		String name = "Ramesh";
 		return "index";
 	}
 
